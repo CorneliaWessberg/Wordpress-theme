@@ -17,11 +17,11 @@ Template Name: Page two
 						</div>
 						<aside id="secondary" class="col-xs-12 col-md-3 col-md-pull-9">
 						
-							<?php wp_nav_menu( 
+						<?php wp_nav_menu( 
 							array( 
 								'theme_location' => 'new-menu',
 								'container' => 'ul',
-								'menu-class' => 'menu' ) ); 
+								'menu_class' => 'side-menu' ) ); 
 						?>
 						
 						</aside>
