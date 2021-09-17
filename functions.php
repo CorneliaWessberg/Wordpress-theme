@@ -59,8 +59,6 @@
         }
         add_action( 'init', 'register_categories_menu' );
 
-
-         
             
 // Försök till att göra en widget
 register_sidebar(
